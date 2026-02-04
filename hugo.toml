@@ -1,4 +1,4 @@
-baseURL = 'https://github.com/ZombieDadCoding/debugging-the-matrix/'
+baseURL = 'https://ZombieDadCoding.github.io/debugging-the-matrix/'
 languageCode = 'en-us'
 title = "AI LLM Engineering Blog"
 theme = "congo"
