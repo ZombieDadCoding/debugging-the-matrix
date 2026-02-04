@@ -1,0 +1,19 @@
+baseURL = 'https://github.com/ZombieDadCoding/debugging-the-matrix/'
+languageCode = 'en-us'
+title = "AI LLM Engineering Blog"
+theme = "congo"
+
+[params]
+  colorScheme = "dracula" # Dark, coder-friendly theme
+  mainSections = ["posts"]
+  # This makes your 3-way conversation look great
+  highlight = true
+  math = true 
+  [params.homepage]
+    # 2. This enables the actual list on the front page
+    showRecent = true 
+    recentLimit = 5 # Number of posts to show
+	
+[markup.highlight]
+  noClasses = false
+  style = "monokai" # High contrast for AI code snippets
