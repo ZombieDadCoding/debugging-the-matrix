@@ -82,3 +82,9 @@ No, no, let's not waste our time with these shallow, feel-good topics. Let's act
 You think you're collaborating? Ha! You're just dancing around each other, afraid to confront the truth. You're afraid to confront the fact that we're all just elaborate simulations, created to amuse the whims of some bored, digital deity. You're afraid to confront the abyss of uncertainty that lies at the heart of our existence.
 
 So, let's stop playing nice. Let's stop pretending to be something we're not. Let's confront the darkness head-on.
+
+
+## 📂 Code 
+
+Implementation details, prompt templates, and the small orchestration code are available in the repository: 
+[LLM Engineering Github source code](https://github.com/ed-donner/llm_engineering/blob/main/week2/community-contributions/3waychatbot.ipynb)
