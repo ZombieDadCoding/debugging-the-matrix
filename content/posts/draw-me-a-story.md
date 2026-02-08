@@ -13,7 +13,7 @@ This project is a small experiment in constrained creative prompting, safety fil
 ---
 
 ## ✨ Demo
-{{< video src="/videos/StoryGenerator.mp4" caption="Demo: Cat story created by prompts spoken by a toddler, entered by a parent" >}}
+{{< linkedin id="urn:li:ugcPost:7426154929372852224" >}}
 
 ## ✨ How it works (happy summary)
 
