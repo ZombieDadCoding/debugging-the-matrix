@@ -34,8 +34,7 @@ Output: a short report containing:
 
 - a 3–5 sentence summary of the video's main points;
 - a list of 6–12 candidate factual claims extracted from speech;
-- for each claim: a credibility score, supporting or contradicting sources, and short provenance notes;
-- timestamps linking claims to the original transcript for easy verification.
+- for each claim: a credibility review, supporting or contradicting sources, and short final data based opinion;
 
 This structured output helps researchers and fact-checkers prioritize which claims need deeper investigation.
 
@@ -46,7 +45,7 @@ This structured output helps researchers and fact-checkers prioritize which clai
 - Architecture: A Colab notebook stitches together lightweight utilities and model calls: video download, audio extraction, ASR, NLP analysis, summarization, and web-based fact checks.
 - Ingestion: the `yt_dlp` Python module downloads media; `ffmpeg` extracts audio and standardizes sample rate.
 - ASR: `openai/whisper-large-v3` is used for speech-to-text transcription (high-quality ASR) with configuration options for runtime and language models.
-- NLP analysis: `meta-llama/Llama-3.2-3B-Instruct` drives sentence segmentation, claim detection, named-entity recognition, and lightweight topic clustering and claim rewriting for downstream checks.
+- Analysis: `meta-llama/Llama-3.2-3B-Instruct` drives sentence segmentation, claim detection, named-entity recognition, and lightweight topic clustering and claim rewriting for downstream checks.
 - Summarization: extractive + abstractive blend (model-backed summarization using Llama-3.2-3B-Instruct with conservative decoding) to keep outputs concise and faithful.
 - Fact-checking: a lightweight verification loop uses `meta-llama/Llama-3.2-3B-Instruct` to rewrite candidate claims, perform automated web searches for evidence, retrieve sources, and run entailment/scoring to flag supporting or contradicting signals.
 - Provenance: each claim links back to transcript timestamps and to retrieved sources (URLs, snippets, and metadata).
@@ -56,31 +55,15 @@ Implementation choices emphasize transparency: explicit timestamps, raw transcri
 
 ---
 
-## 🛡️ Safety & design decisions
+## 🛡️ Caution
 
-- Bias & misuse: the system surfaces candidate claims but does not assert definitive truth — it provides evidence and scores for human reviewers.
-- Rate limits & scraping: practical safeguards prevent abusive web scraping; the notebook documents API terms and rate-limit considerations.
+- Bias & misuse: the system surfaces video claims but does not assert definitive truth — it provides evidence and scores for human reviewers.
 - Privacy: the notebook warns users before processing videos of private individuals and suggests consent best practices.
-- Failure modes: ASR errors and ambiguous claims are flagged; the notebook provides confidence scores and recommends human review for low-confidence items.
 
 ---
 
 ## 📂 Source code
 
-- Colab notebook (primary): Replace the placeholder below with your notebook URL to open and run the full pipeline in Colab.
-
-- Open the pipeline: https://colab.research.google.com/drive/REPLACE_WITH_YOUR_NOTEBOOK_ID
-
-- If you host the code in a GitHub repo, add a link here instead — e.g., `https://github.com/your-org/video-analysis-colab`.
+- Will be uploaded once PR is merged.
 
 ---
-
-If you'd like, I can:
-
-- add the actual Colab notebook file into the repo and update the link;
-- create a small demo input set and expected outputs to include with the post;
-- or expand the Implementation section with code excerpts from your notebook.
-
----
-
-License: MIT
