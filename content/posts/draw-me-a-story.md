@@ -12,6 +12,9 @@ This project is a small experiment in constrained creative prompting, safety fil
 
 ---
 
+## ✨ Demo
+{{< linkedin id="urn:li:ugcPost:7426154929372852224" >}}
+
 ## ✨ How it works (happy summary)
 
 Give the bot five inputs:
@@ -75,10 +78,9 @@ You are a storyteller for toddlers. Use simple words, short sentences, gentle to
 
 ---
 
-## 📂 Code & further reading
+## 📂 Code 
 
-Implementation details, prompt templates, and the small orchestration code are available in my project repo (examples include the story prompt, the TTS integration, and the image prompt templates). 
-
-{{< video src="/videos/StoryGenerator.mp4" caption="Demo: Cat story created by prompts spoken by a toddler, entered by a parent" >}}
+Implementation details, prompt templates, and the small orchestration code are available in the repository: 
+[LLM Engineering Github source code](https://github.com/ed-donner/llm_engineering/blob/main/week2/community-contributions/draw_my_story.ipynb)
 
 
