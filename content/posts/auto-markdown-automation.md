@@ -35,7 +35,7 @@ This project is a small automation that enriches an existing Jupyter Notebook by
 - **Language:** Python (Jupyter notebook automation).
 - **Notebook format:** Standard `.ipynb` (JSON).
 - **LLM client:** OpenAI-compatible client pointed at a local Ollama instance (`http://localhost:11434/v1`).
-- **Model:** `deepseek-coder-v2` (used locally via Ollama in the example).
+- **Model:** `llama3.3` (used locally via Ollama in the example).
 
 ---
 
