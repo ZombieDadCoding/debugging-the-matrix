@@ -64,6 +64,6 @@ Implementation choices emphasize transparency: explicit timestamps, raw transcri
 
 ## 📂 Source code
 
-Implementation details, prompt templates, and the small orchestration code are available in the repository: 
+Implementation details, prompt templates, and the small orchestration code are available in the repository: https://github.com/ed-donner/llm_engineering/blob/main/week3/community-contributions/MultiModalVerify.ipynb
 
 ---
