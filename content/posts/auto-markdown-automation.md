@@ -11,7 +11,7 @@ tags:
 
 This project is a small automation that enriches an existing Jupyter Notebook by inserting explanatory Markdown cells immediately before every code cell. It preserves the original code unchanged and generates concise human-readable descriptions that explain each code block's purpose, inputs, outputs, and side effects.
  
-<p style="text-align:center;margin:18px 0 28px 0"><img src="/images/MarkdownMate.jpg" alt="Auto Markdown diagram" style="max-width:880px;height:auto;border:0;" /></p>
+<p style="text-align:center;margin:18px 0 28px 0">{{< siteimg src="images/MarkdownMate.jpg" alt="Auto Markdown diagram" style="max-width:880px;height:auto;border:0;" >}}</p>
 
 ---
 
