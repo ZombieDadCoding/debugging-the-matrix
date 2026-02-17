@@ -64,6 +64,6 @@ Implementation choices emphasize transparency: explicit timestamps, raw transcri
 
 ## 📂 Source code
 
-- Will be uploaded once PR is merged.
+Implementation details, prompt templates, and the small orchestration code are available in the repository: 
 
 ---
