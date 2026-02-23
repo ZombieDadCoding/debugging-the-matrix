@@ -1,11 +1,11 @@
-++
-title = "The Dad Lab: A RAG Chatbot for Busy Parents"
-date = "2026-02-22T09:00:00-08:00"
-draft = false
-tags = ["the-dad-lab", "RAG", "LangChain", "Gradio", "parenting", "dataset"]
-description = "A small project that uses RAG with household datasets to help fathers chat with a local LLM about activities and items for kids."
-image = "/images/the-dad-lab-demo.png"
-++
+---
+title: "The Dad Lab: A RAG Chatbot for Busy Parents"
+date: 2026-02-22T09:00:00-08:00
+draft: false
+tags: ["the-dad-lab", "RAG", "LangChain", "Gradio", "parenting", "dataset"]
+summary: "A small project that uses RAG with household datasets to help fathers chat with a local LLM about activities and items for kids."
+image: "/images/the-dad-lab-demo.png"
+---
 
 ## ✨ Project Snapshot
 
