@@ -3,13 +3,15 @@ languageCode = 'en-us'
 title = "AI LLM Engineering Blog"
 theme = "congo"
 
+[author]
+  name = "ZombieDad"
+
 [params]
   colorScheme = "dracula" # Dark, coder-friendly theme
   mainSections = ["posts"]
   # This makes your 3-way conversation look great
   highlight = true
   math = true 
-  author = "ZombieDadCoding"
   [params.homepage]
     # 2. This enables the actual list on the front page
     showRecent = true 

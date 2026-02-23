@@ -18,7 +18,7 @@ Parenting demands quick, pragmatic ideas— indoor games or crafts for rainy day
 
 ---
 
-![Demo](/images/the-dad-lab-demo.png)
+<p style="text-align:center;margin:18px 0 28px 0">{{< siteimg src="images/the_dad_lab_demo.png" alt="The dad lab" style="max-width:880px;height:auto;border:0;" >}}</p>
 
 ---
 
