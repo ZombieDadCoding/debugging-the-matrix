@@ -18,16 +18,10 @@ Parenting demands quick, pragmatic ideas— indoor games or crafts for rainy day
 
 ---
 
-<p style="text-align:center;margin:18px 0 28px 0">{{< siteimg src="images/the_dad_lab_demo.png" alt="The dad lab" style="max-width:880px;height:auto;border:0;" >}}</p>
-
----
-
 ## What’s inside the repo
 
 - `static/source_code/the-dad-lab/implementation/ingest.py` — data ingestion and chunking for the RAG index.
 - `static/source_code/the-dad-lab/implementation/answer.py` — the demo chatbot harness that runs queries against the local RAG index.
-
-Note: the demo image is `static/images/the-dad-lab-demo.png` and is referenced above for visual context.
 
 ---
 
