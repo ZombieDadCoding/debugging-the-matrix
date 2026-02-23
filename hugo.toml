@@ -9,6 +9,7 @@ theme = "congo"
   # This makes your 3-way conversation look great
   highlight = true
   math = true 
+  author = "ZombieDadCoding"
   [params.homepage]
     # 2. This enables the actual list on the front page
     showRecent = true 
