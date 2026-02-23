@@ -1,21 +1,26 @@
 ---
 title: "The Dad Lab: A RAG Chatbot for Busy Parents"
-date: 2026-02-22T09:00:00-08:00
+date: 2026-02-21T10:00:00-05:00
 draft: false
-tags: ["the-dad-lab", "RAG", "LangChain", "Gradio", "parenting", "dataset"]
-summary: "A small project that uses RAG with household datasets to help fathers chat with a local LLM about activities and items for kids."
-image: "/images/the-dad-lab-demo.png"
+tags: ["the-dad-lab", "RAG", "LangChain", "Gradio", "parenting", "dataset", "llm"]
+summary: "A Google Colab pipeline that turns online videos into structured summaries and verifiable claims with automated fact-checking."
 ---
 
 ## ✨ Project Snapshot
 
- The Dad Lab is a lightweight RAG (retrieval-augmented generation) project aimed at helping fathers of small children quickly get context-aware, practical suggestions from a local LLM. It bundles small household and activity datasets so the chatbot can answer questions about common toys, chores, and simple activities using local, private context.
+The Dad Lab is a lightweight RAG (retrieval-augmented generation) project aimed at helping fathers of small children quickly get context-aware, practical suggestions from a local LLM. It bundles small household and activity datasets so the chatbot can answer questions about common toys, chores, and simple activities using local, private context.
+
+---
 
 ## Motivation
 
- Parenting demands quick, pragmatic ideas— indoor games or crafts for rainy days or weekends. The Dad Lab demonstrates how you can combine a curated local dataset with a compact local LLM to produce helpful, context-rich responses without sending personal data to remote services.
+Parenting demands quick, pragmatic ideas— indoor games or crafts for rainy days or weekends. The Dad Lab demonstrates how you can combine a curated local dataset with a compact local LLM to produce helpful, context-rich responses without sending personal data to remote services.
+
+---
 
 ![Demo](/images/the-dad-lab-demo.png)
+
+---
 
 ## What’s inside the repo
 
@@ -24,11 +29,15 @@ image: "/images/the-dad-lab-demo.png"
 
 Note: the demo image is `static/images/the-dad-lab-demo.png` and is referenced above for visual context.
 
+---
+
 ## 🔧 How it works
 
 - Data ingestion: `ingest.py` reads small CSV datasets (activities + inventory), normalizes text, and writes embeddings/knowledge store suitable for retrieval.
 - RAG pipeline: When a user asks a question, a retriever pulls relevant context from the local index; that context plus the user prompt are passed to the LLM in a single prompt (the RAG pattern).
 - Interface: A minimal Gradio UI hosts the chat demo locally so fathers can try the assistant quickly on their machine.
+
+---
 
 ## Key tech learnings
 
@@ -36,5 +45,9 @@ Note: the demo image is `static/images/the-dad-lab-demo.png` and is referenced a
 - Gradio: A small, friendly web UI that makes local demos frictionless—spin up a local chat web app in minutes.
 - Local-first RAG: Keeping datasets local reduces privacy concerns and simplifies the UX for on-device or home-network demos.
 
+---
+
 ## Summary
 The Dad Lab is intentionally small and extensible—swap in more local data, try other retrievers/embeddings, or expose safe, read-only access for family members.
+
+---
